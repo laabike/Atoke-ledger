@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <link rel="shortcut icon" href="./images/download.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+  <title>Atoke Financial | Accounting & Investment</title>
+</head>
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 class="logo">
+<span class="text-primary">
+  <!-- to be able to edit the logo -->
+  <i class="fas fa-book-open"></i> Atoke</span>Ledger
+    </h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header:showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">
+        The Sky Is The Limit</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et amet accusamus asperiores. Cupiditate omnis velit ex, mollitia voluptas est quae consectetur nam pariatur neque. Molestias assumenda aliquam quisquam sit perspiciatis.
+        </p>
+        <a href="#what" class="btn">Read More</a>
+    </div>
+  </header>
+
+  <!-- Section: what we do -->
+  <section id="what" class="bg-light py-1">
+    <div class="container">
+      <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do </h2>
+      <!-- the class=items is the flex container -->
+      <div class="items">
+        <div class="item">
+        <i class="fas fa-university fa-2x"></i>
+      <div>
+        <h3>Investment Banking</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nam!</p>
+      </div>
+    </div>
+        <div class="item">
+          <i class="fas fa-book-reader fa-2x"></i>
+          <div>
+            <h3>Portfolio Management</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nam!</p>
+          </div>
+        </div>
+        <div class="item">
+        <i class="fas fa-pencil-alt fa-2x"></i>
+        <div>
+          <h3>Tax & Custodian</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nam!</p>
+      </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Who we are -->
+  <section id="who">
+    <!-- A container will not be used because we want this section to flow to both edge of the browser -->
+    <div class="who-img"></div>
+    <div class="who-text bg-dark p-2">
+      <!-- p-1, p-2 or p- anything is padding all around while py is padding on the y-axis i.e up and down-->
+      <h2 class="m-heading"><span class="text-primary">Who</span> We Are </h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, amet, quaerat tempora corrupti iusto fuga voluptas totam a earum et iure quis, illum laudantium. Nostrum natus voluptate dolore sequi repudiandae.</p>
+      <h3>Our Team</h3>
+      <ul class="list">
+        <li>Ladele Atoke: CEO</li>
+        <li>Olubayo Aweni: CFO</li>
+        <li>Ladele Asabi: Lead Accountant</li>
+        <li>Ladele Biodun: Investment Manager</li>
+        <li>Gift BestJnr: Senior Accountant</li>
+      </ul>
+    </div>
+  </section>
+
+<!-- Section: Clients -->
+<section id="clients" class="py-1">
+<div class="container">
+  <!-- cos we want to move the contents to the middle -->
+ <h2 class="m-heading text-center">
+   <span class="text-primary">Our</span> Clients</h2>
+   <div class="items py-1">
+     <div><img src="./images/logos/logo1.png" alt="Client"></div>
+     <div><img src="./images/logos/logo2.png" alt="Client"></div>
+     <div><img src="./images/logos/logo3.png" alt="Client"></div>
+     <div><img src="./images/logos/logo4.png" alt="Client"></div>
+     <div><img src="./images/logos/logo5.png" alt="Client"></div>
+</div>
+</div>
+</section>
+
+<!-- Section:Contact -->
+<section id="contact">
+  <!--id= ontact is the flex container while the form and the map are the flex items -->
+  <div class="contact-form bg-primary p-2">
+    <h2 class="m-heading">Contact Us</h2>
+    <p>Please use the form below to contact us</p>
+<form>
+  <div class="form-group">
+    <!-- Wraps the label and the input -->
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter Name">
+  </div>
+  <div class="form-group">
+    <!-- Wraps the label and the input -->
+    <label for="email">Email</label>
+    <input type="email" name="email" id="Email" placeholder="Enter Email">
+  </div>
+  <div class="form-group">
+    <!-- Wraps the label and the input -->
+    <label for="phone">Phone Number</label>
+    <input type="text" name="phone" id="phone" placeholder="Enter Phone">
+  </div>
+  <div class="form-group">
+    <!-- Wraps the label and the input -->
+    <label for="message">Message</label>
+    <textarea name="message" id="message" placeholder="Enter Your Message"></textarea>
+  </div>
+  <input type="submit" value="Send" class="btn btn-dark">
+</form>
+  </div>
+  <div class="map">
+    <!-- this is done with JS -->
+    <!-- because it is a google map, we will need an API Key -->
+  </div>
+</section>
+
+<!-- Section: Footer -->
+<footer id="main-footer" class="bg-dark text-center py-1">
+  <div class="container">
+<p>Copyright &copy; 2019, AtokeLedger, All Rights Reserved</p>
+</div>
+</footer>
+
+<!-- JQuery CDN -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+
+<!-- Local JS File -->
+<script src="/js/main.js"></script>
+<!-- to link the java script file -->
+<!-- use src for JS and href for CSS -->
+
+<!-- Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmbFQh-qqryYYjV8g2OAOsdQo0PT9QZbs&callback=initMap"
+    async defer></script>
+    <!-- links to te maps API and it has a callback=initMap. The initMap is a function. so it calls the init map which a short form of initialize-->
+</body>
+</html>
